@@ -5,6 +5,7 @@ import json
 
 user_name = "postgres"
 database_name = "trivia"
+
 database_path = "postgresql://{}@{}/{}".format(user_name, 'localhost:5432', database_name)
 
 db = SQLAlchemy()
